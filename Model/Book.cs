@@ -16,6 +16,8 @@ namespace Experiment.EntityFramework.Model
         public int BookId { get; set; }
         public string Name { get; set; }
 
+        public string AddedProperty { get; set; }
+
         public virtual List<Page> Pages { get; set; }
     }
 }
